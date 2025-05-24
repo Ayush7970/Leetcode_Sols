@@ -5,6 +5,7 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+    # think about if you can solve it with bfs or nor for fun 
     def goodNodes(self, root: TreeNode) -> int:
         count = [0]
         visited = set()
