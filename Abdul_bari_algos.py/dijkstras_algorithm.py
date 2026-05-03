@@ -1,7 +1,7 @@
 import heapq
 
 """
-Djikstras Algo time complexity is O(elogV) if you use a min heap and adjancency list otherwise O(V^2) if you use an adjacency matrix and linear search for the minimum distance.
+Dijkstra's Algo time complexity is O(elogV) if you use a min heap and adjancency list otherwise O(V^2) if you use an adjacency matrix and linear search for the minimum distance.
 Space Complexity is O(V+ E) for the graph and O(V) for the distance array and O(V) for the min heap in worst case, so overall O(V+E).
 """
 def dijkstra(n, edges, source):
@@ -19,7 +19,7 @@ def dijkstra(n, edges, source):
     while min_heap:
         curr_dist, node = heapq.heappop(min_heap)
 
-        if curr_dist > dist[node]:          # if the distnace in the dist array is already short then we dont have to take this path to that node
+        if curr_dist > dist[node]:          # if the distance in the dist array is already short then we dont have to take this path to that node
             continue
 
         for next_node, new_dist in graph[node]:
