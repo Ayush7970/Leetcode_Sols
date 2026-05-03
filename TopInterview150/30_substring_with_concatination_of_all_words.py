@@ -1,4 +1,5 @@
 from collections import defaultdict, Counter
+from typing import List
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
 
@@ -13,8 +14,6 @@ class Solution:
         n = len(s)
         k = len(words)
         word_len = len(words[0])
-
-
 
         def sliding_window(i):
 
