@@ -1,1 +1,6 @@
 https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/?envType=company&envId=google&favoriteSlug=google-thirty-days
+https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
+https://leetcode.com/problems/unique-binary-search-trees/description/
+https://leetcode.com/problems/unique-binary-search-trees-ii/
+https://leetcode.com/problems/recover-binary-search-tree/
+https://leetcode.com/problems/majority-element/?envType=study-plan-v2&envId=top-interview-150
