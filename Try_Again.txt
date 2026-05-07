@@ -4,3 +4,4 @@ https://leetcode.com/problems/unique-binary-search-trees/description/
 https://leetcode.com/problems/unique-binary-search-trees-ii/
 https://leetcode.com/problems/recover-binary-search-tree/
 https://leetcode.com/problems/majority-element/?envType=study-plan-v2&envId=top-interview-150
+https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=study-plan-v2&envId=top-interview-150
