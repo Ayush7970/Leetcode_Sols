@@ -24,24 +24,24 @@ class Solution:
         return ans
 
 
-        """
-        Brute force 
-        T.C -> O(n^2)
-        S.C -> O(1)
-        """
+        # """
+        # Brute force 
+        # T.C -> O(n^2)
+        # S.C -> O(1)
+        # """
 
-        # len_c = len(citations)
-        # while len_c > 0:
+        # # len_c = len(citations)
+        # # while len_c > 0:
 
-        #     count = 0
-        #     for i in range(len(citations)):
-        #         if citations[i] >= len_c:
-        #             count += 1
+        # #     count = 0
+        # #     for i in range(len(citations)):
+        # #         if citations[i] >= len_c:
+        # #             count += 1
             
-        #     if count >= len_c:
-        #         return len_c
-        #     len_c -= 1
+        # #     if count >= len_c:
+        # #         return len_c
+        # #     len_c -= 1
         
-        # return 0
+        # # return 0
 
         
