@@ -2,35 +2,61 @@ class Solution:
     def trap(self, height: List[int]) -> int:
 
         """
-        Simple two pointers from opposite side. You loop and store the max wall and subtract from the amx value to the current value for both of them. From i and j you move teh one which is small so that the other pointers stops at the greatest wall and this the other pointers comes to it instead of the tallest one moving forward, because if you move the tallest it will caculate the water from its length but you dont know what is the height on the other side, it will definately be smaller.
+        Try Again, I made a mistake this time. In this question I was tryingt o loop left and right both together. However, that will not solve the problem. The issue is there is a greatest wall it will also assume that the water can be stored to that left, thats why with the if condition we move the lower height out of the left and right
         """
 
-
-        left = 0
-        right = len(height) - 1
-        max_left = height[left]
-        max_right = height[right]
-        res = 0
-
+        left, right = 0, len(height) - 1
+        total = 0
+        max_left, max_right = 0, 0 
         while left < right:
 
             if height[left] < height[right]:
-                left += 1
                 max_left = max(max_left, height[left])
-                res += max_left - height[left]  # this is one of the most important line which basically stores everything which is shorter than the max height, it can never be negative since above we calculate the max_left with these two variable itself.
+                total += (max_left - height[left])
+                left += 1
+
             else:
-                right -= 1
                 max_right = max(max_right, height[right])
-                res += max_right - height[right]
-
-        return res
-
+                total += (max_right - height[right])
+                right -= 1
 
 
-
+        return total
 
 
 
+
+
+
+
+
+
+
+
+
+#         """
+#         Simple two pointers from opposite side. You loop and store the max wall and subtract from the amx value to the current value for both of them. From i and j you move teh one which is small so that the other pointers stops at the greatest wall and this the other pointers comes to it instead of the tallest one moving forward, because if you move the tallest it will caculate the water from its length but you dont know what is the height on the other side, it will definately be smaller.
+#         """
+
+
+#         left = 0
+#         right = len(height) - 1
+#         max_left = height[left]
+#         max_right = height[right]
+#         res = 0
+
+#         while left < right:
+
+#             if height[left] < height[right]:
+#                 left += 1
+#                 max_left = max(max_left, height[left])
+#                 res += max_left - height[left]  # this is one of the most important line which basically stores everything which is shorter than the max height, it can never be negative since above we calculate the max_left with these two variable itself.
+#             else:
+#                 right -= 1
+#                 max_right = max(max_right, height[right])
+#                 res += max_right - height[right]
+
+#         return res
 
 
 
