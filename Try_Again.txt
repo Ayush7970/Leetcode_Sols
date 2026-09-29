@@ -8,5 +8,11 @@ https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=study
 https://leetcode.com/problems/roman-to-integer/description/?envType=study-plan-v2&envId=top-interview-150
 https://leetcode.com/problems/integer-to-roman/?envType=study-plan-v2&envId=top-interview-150
 
+Contest1:
+https://leetcode.com/contest/weekly-contest-521/problems/maximum-equal-adjacent-pairs-after-at-most-one-replacement/description/
+https://leetcode.com/contest/weekly-contest-521/problems/longest-subarray-with-restricted-pair-sums/submissions/2155534428/
+https://leetcode.com/contest/weekly-contest-521/problems/maximize-meeting-earnings-with-idle-gaps/submissions/2155616795/
+
+
 
 
